@@ -29,6 +29,6 @@ app.use((error, req, res, next) => {
     }
 });
 
-const server = http.listen(process.env.PORT || 3000, () => {
+const server = http.listen(3000, () => {
     console.log(`> Ready On Server http://localhost:${server.address().port}`);
 });
